@@ -11,5 +11,6 @@ describe 'fizzbuzz' do
   end
   it 'returns "fizz" when passed a multiple of 3' do
     expect(fizzbuzz(9)).to eq 'fizz'
+    expect(fizzbuzz(27)).to eq 'fizz'
   end
 end
